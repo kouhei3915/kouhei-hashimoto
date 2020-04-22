@@ -1,4 +1,43 @@
-p{color: blue;}
+p.sub-title1{color: blue;}
+p#sub-title2{color: chartreuse;}
 h2{color: cadetblue;
 font-size: 50pt;
 font-weight: bold;}
+div.boxtext1{color: crimson;}
+div.boxtext2{color: darkgoldenrod;}
+div.boxtext3{border-radius: 100%;
+height: 100px;
+width: 100px;
+background-color: darkgreen;}
+div.boxtext4{border-radius: 50% 50% 0 50%;
+height: 100px;
+width: 100px;
+background-color: green;
+position: absolute;
+left: 10px;
+top: 10px;
+margin: 10px;}
+div.boxtext5{height: 100px;
+width: 100px;
+border-radius: 50% 50% 50% 0;
+background-color: green;
+position: absolute;
+left: 115px;
+top: 10px;
+margin: 10px;}
+div.boxtext6{height: 100px;
+    width: 100px;
+    border-radius: 50% 0 50% 50%;
+    background-color: green;
+    position: absolute;
+    left: 10px;
+    top: 115px;
+    margin: 10px;}
+div.boxtext7{height: 100px;
+    width: 100px;
+    border-radius: 0 50% 50% 50%;
+    background-color: green;
+    position: absolute;
+    left: 115px;
+    top: 115px;
+    margin: 10px;}
